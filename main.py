@@ -11,8 +11,7 @@ def total_usdt(pair_prices, balance):
     return
 
 
-client = Client("pVlXHvGbbrtltRFymi9cGdpI7q2M78oOuVEY6ZgQfR8TrWNcH8ZPshhlp910K7W9",
-                "IEHMTQevnfVbMcvH4HmQXEM39BS2w791smodHXRxVHUB3OI2ouekhWdDl9D8O9y4")
+client = Client(api_key, api_secret)
 
 
 info = client.get_account()
